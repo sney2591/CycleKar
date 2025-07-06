@@ -6,10 +6,10 @@ In modern web development, automating deployment and ensuring your code quality 
 
 By the end, you'll have a CI/CD pipeline that:
 
-- ✅ Builds and tests your website  
-- 🔍 Runs static analysis via SonarQube  
-- 🛡 Scans for vulnerabilities with Trivy  
-- 🚀 Deploys the site to a Docker container
+- Builds and tests your website  
+- Runs static analysis via SonarQube  
+- Scans for vulnerabilities with Trivy  
+- Deploys the site to a Docker container
 
 ---
 
@@ -31,7 +31,7 @@ Your website should be a simple HTML/CSS/JS project.
 - Static website files (HTML/CSS/JS)  
 - GitHub repository (for Jenkins integration)
 
-✅ Make sure the website runs locally before proceeding.
+Make sure the website runs locally before proceeding.
 
 ---
 
@@ -99,7 +99,7 @@ sudo dpkg -i trivy_0.50.1_Linux-64bit.deb
 
 trivy --version 
 ```
-## 🚀 Step 5: Enable Continuous Deployment (CD)
+## Step 5: Enable Continuous Deployment (CD)
 
 Once your Jenkins pipeline is configured and connected to GitHub, every code push triggers the following stages automatically:
 
