@@ -2,6 +2,10 @@
 
 ## Introduction
 
+![Screenshot 1](./cycle1.png)  
+![Screenshot 2](./cycle2.png)
+
+
 In modern web development, automating deployment and ensuring your code quality is crucial for maintaining high standards and reducing errors. This guide walks through automating the deployment of a static website using **Docker**, **Jenkins**, **SonarQube**, and **Trivy**.
 
 By the end, you'll have a CI/CD pipeline that:
